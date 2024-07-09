@@ -1,5 +1,5 @@
 import cv2
-from s import pyzbar
+from pyzbar import pyzbar
 
 def decode_qr_codes(frame):
     # Find and decode QR codes
